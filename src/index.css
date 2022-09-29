@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(241, 242, 246);
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.head {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.head img {
+  width: 125px;
+}
+
+.header {
+  margin: auto;
+  width: 70%;
+  height: 230px;
+  padding: 50px 50px 0px 50px;
+  background-color: white;
+  position: relative;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(44, 44, 44);
+}
+
+.header img {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+}
+
+.count {
+  width: 70%;
+  padding: 20px 50px;
+  background-color: rgb(36, 196, 132);
+  margin: auto;
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coun {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  width: 78%;
+}
+
+.product {
+  width: 200px;
+  height: auto;
+  padding: 30px 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+margin-bottom: 100px;
+}
+
+.product img {
+  width: 136px;
+  height: 120px;
+
+}
+
+.parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+}
+
+.text1 {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.text2 {
+  font-size: 20px;
+  color: rgb(36, 196, 132);
+  font-weight: bold;
+}
+
+.group {
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+}
+
+button {
+  width: 84px;
+  height: 34px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.but1::placeholder{
+  color: black;
+}
+.but2 {
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
+  color: white;
+}
+
+input {
+  width: 60px;
+  height: 16px;
+  border: 1px solid #b2bec3;
+  padding: 9px 12px;
+  outline: none;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.item{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
